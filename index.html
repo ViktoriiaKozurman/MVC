@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Колекція фільмів</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <h1>Моя колекція фільмів</h1>
+
+    <div id="app">
+        <form id="add-movie-form">
+            <h2>Додати новий фільм</h2>
+            <input type="text" id="title" placeholder="Назва фільму" required>
+            <input type="text" id="directorSurname" placeholder="Прізвище режисера (Автор)" required>
+            <input type="number" id="releaseYear" placeholder="Рік виходу" required>
+            <input type="text" id="genre" placeholder="Жанр" required>
+            <button type="submit">Додати Фільм</button>
+        </form>
+
+        <h2>Список фільмів</h2>
+        <ul id="movie-list">
+            </ul>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

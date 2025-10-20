@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif;
+    margin: 40px;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+#app {
+    max-width: 700px; 
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+#add-movie-form input, 
+#add-movie-form button {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#add-movie-form button {
+    background-color: #007bff; 
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+}
+
+#movie-list {
+    list-style: none;
+    padding: 0;
+}
+
+#movie-list li {
+    background: #e9f5ff; 
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 4px;
+    border-left: 5px solid #007bff;
+}
